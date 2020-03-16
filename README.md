@@ -2,7 +2,7 @@
 Sample Docker build files to facilitate installation, configuration, and environment setup for DevOps users. For more information about Oracle Database please see the [Oracle Database Online Documentation](https://docs.oracle.com/en/database/oracle/oracle-database/index.html).
 
 ## About
-This is a modified Dockerfile of fuzziebrain user [Docker 18.4.0](https://github.com/fuzziebrain/docker-oracle-xe)
+This is a modified Dockerfile of fuzziebrain user [docker-oracle-xe](https://github.com/fuzziebrain/docker-oracle-xe)
 
 The problem with oracle images is extremely slow start. On the first start database is created, and this step can take several minutes.
 
@@ -330,7 +330,6 @@ docker run -d \
   --network=oracle_network \
   oracle-xe:18c
   
-# As this takes a long time to run you can keep track of the initial installation by running:
 docker logs oracle-xe
 ```
 
