@@ -1,5 +1,5 @@
 FROM oraclelinux:7-slim
-LABEL MAINTAINER="Adrian Png <kamil.jedrzejuk@gmail.com>"
+LABEL MAINTAINER="CamylYed <kamil.jedrzejuk monkey gmail dot com>"
 
 ENV \
   # The only environment variable that should be changed!
