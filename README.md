@@ -308,7 +308,7 @@ In Dockerfile we have additional layer which is responsible for run a prepareOra
 
 ```bash
 -- Clone repo
-git clone git@github.com:fuzziebrain/docker-oracle-xe.git
+git clone https://github.com/KamilJedrzejuk/oracle18c-xe
 
 -- Set the working directory to the project folder
 cd docker-oracle-xe
