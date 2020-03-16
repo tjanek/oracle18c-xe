@@ -303,10 +303,22 @@ tail -f /dev/null
 In Dockerfile we have additional layer which is responsible for run a prepareOracle.sh
 
 
-## How to build
-* ./buildDocker.sh -v 18.4.0 -x
 
+## Build Image
 
+```bash
+-- Clone repo
+git clone git@github.com:fuzziebrain/docker-oracle-xe.git
+
+-- Set the working directory to the project folder
+cd docker-oracle-xe
+
+-- Copy the RPM to docker-odb18c-xe/files
+cp ~/Downloads/oracle-database-xe-18c-1.0-1.x86_64.rpm files/
+
+-- Build Image
+docker build -t oracle-xe:18c .
+```
 ## Run Container
 
 ```bash
