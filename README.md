@@ -12,7 +12,7 @@ I decided divide a runOracle.sh file into two files:
 
 In Dockerfile we have additional layer which is responsible for run a prepareOracle.sh
 
-This image is avaiable on docker hub:
+This image is available on docker hub:
 + docker pull kamiljedrzejuk/oracle18c-xe-initialized:latest
 
 ## Build Image
